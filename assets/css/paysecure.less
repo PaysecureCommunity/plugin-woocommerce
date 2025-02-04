@@ -1,0 +1,25 @@
+.woocommerce-page {
+
+  ul.wc_payment_methods {
+    li.wc_payment_method {
+      &.payment_method_paysecure {
+        > label {
+          display: inline-block;
+
+          > img {
+            max-width: 120px;
+          }
+        }
+      }
+    }
+  }
+
+  input[type=radio][name=payment_method] {
+    ~ .payment_box {
+      &.payment_method_paysecure {
+        //margin-left: 0;
+        //padding-left: 2rem !important;
+      }
+    }
+  }
+}

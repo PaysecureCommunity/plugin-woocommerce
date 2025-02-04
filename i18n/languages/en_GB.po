@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4\n"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "PaySecure Payments"
+msgstr "PaySecure Payments"
+
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+msgid "Enable PaySecure Payments"
+msgstr "Enable PaySecure Payments"
+
+msgid "Enable payment method selection"
+msgstr "Enable payment method selection"
+
+msgid "Payment method title"
+msgstr "Payment method title"
+
+msgid "Payment method description"
+msgstr "Payment method description"
+
+msgid "Brand ID"
+msgstr "Brand ID"
+
+msgid "Secret key"
+msgstr "Secret key"
+
+msgid "Please enter your secret key"
+msgstr "Please enter your secret key"
+
+msgid "Debug"
+msgstr "Debug"
+
+msgid "Enable Debug Logging"
+msgstr "Enable Debug Logging"
+
+msgid "Log events to <code>%s</code>"
+msgstr "Log events to <code>%s</code>"
+
+msgid "Payment Successful. Transaction ID: %s"
+msgstr "Payment Successful. Transaction ID: %s"
+
+msgid "ERROR: Payment was received, but order verification failed."
+msgstr "ERROR: Payment was received, but order verification failed."
+
+msgid "Payment Error:"
+msgstr "Payment Error:"
+
+msgid "Refund failed."
+msgstr "Refund failed."
+
+msgid "Refunded %1$s - Refund ID: %2$s"
+msgstr "Refunded %1$s - Refund ID: %2$s"

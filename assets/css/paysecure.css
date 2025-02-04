@@ -1,0 +1,7 @@
+.woocommerce-page ul.wc_payment_methods li.wc_payment_method.payment_method_paysecure > label {
+  display: inline-block;
+}
+.woocommerce-page ul.wc_payment_methods li.wc_payment_method.payment_method_paysecure > label > img {
+  max-width: 120px;
+}
+/*# sourceMappingURL=paysecure.css.map */

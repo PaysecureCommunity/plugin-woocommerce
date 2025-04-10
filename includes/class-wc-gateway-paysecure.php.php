@@ -82,7 +82,7 @@ class WC_PaySecure_Payments_Gateway extends WC_Payment_Gateway
         }
 
         return __(
-            'Pay via PaySecure.',
+            'Pay via Paysecure.',
             'woocommerce-paysecure-payments'
         );
     }

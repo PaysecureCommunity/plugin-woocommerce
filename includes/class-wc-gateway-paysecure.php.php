@@ -25,10 +25,10 @@ class WC_PaySecure_Payments_Gateway extends WC_Payment_Gateway
         $this->init_form_fields();
         $this->init_settings();
 
-        $this->method_title = __('PaySecure Payments', 'woocommerce-paysecure-payments');
+        $this->method_title = __('Paysecure Payments', 'woocommerce-paysecure-payments');
         $this->method_description = $this->define_method_description();
 
-        $this->title = $this->get_option('title', __('PaySecure', 'woocommerce-paysecure-payments'));
+        $this->title = $this->get_option('title', __('Paysecure', 'woocommerce-paysecure-payments'));
         $this->description = $this->get_option('description', $this->method_description);
 
         $this->icon = null;//plugins_url('assets/images/paysecure.png', dirname(__FILE__));

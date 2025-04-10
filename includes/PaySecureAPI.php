@@ -39,7 +39,7 @@ class PaySecureAPI
     {
         $this->log_info("Loading Payment Form");
 
-        return $this->call('POST', '/purchases/', $params);
+        return $this->call('POST', '/purchases', $params);
     }
 
     public function payment_methods($currency, $language)
@@ -55,7 +55,7 @@ class PaySecureAPI
     public function was_payment_successful($payment_id)
     {
         $this->log_info(sprintf("Validating Payment: %s", $payment_id));
-        $result = $this->call('GET', "/purchases/{$payment_id}/");
+        $result = $this->call('GET', "/purchases/{$payment_id}");
 
         $this->log_info(sprintf(
             "Payment Validation Result: %s",
